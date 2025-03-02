@@ -1,6 +1,4 @@
 function main(args, path)
 	print("Hello, World! You've entered args:")
-	for _,arg in ipairs(args) do
-		print(args)
-	end
+	table.concat(args)
 end
