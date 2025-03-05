@@ -1,0 +1,5 @@
+function main(a,p)
+    print("GNAW -----------------")
+    print("GNAW VER: "..gnaw.ver())
+    print("LUPA VER: ".._VERSION)
+end
