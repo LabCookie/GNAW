@@ -1,5 +1,5 @@
 --[[
-    This program requires GNAW version: pre-release 3.25:3 full version as it uses the functions:
+    This program requires GNAW version: pre-release 3.25:3 full version (or newer) as it uses the functions:
     - gnaw.ver() | Gets version of GNAW (Which was added in pre-release 3.25:3
 ]]
 
