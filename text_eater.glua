@@ -4,8 +4,8 @@ function main(a,p)
 	if #a > 1 then
 		f = lupafs.open(lupafs.concat(p,a[2]),"a+")
 		clear_console()
+		print(":q to quit")
   		while true do
-			print(":q to quit")
 			local txt = input("")
    			if txt == ":q" then
 	  			break
