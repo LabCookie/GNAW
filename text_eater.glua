@@ -1,3 +1,4 @@
+-- Get ready! The built-in text_eater on PR 3.25:4max will be replaced with this one when PR 3.25:5 releases
 function main(a,p)
 	local f
 	if #a > 1 then
