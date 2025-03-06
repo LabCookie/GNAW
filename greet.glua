@@ -1,0 +1,2 @@
+-- Made with text_eater
+function main(a,p) print("Hello, "..a[2].."!") end
