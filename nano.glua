@@ -1,0 +1,19 @@
+-- This is a program that was made by an artifical intelligence machine. I will not take ANY credit for this program
+
+print("Enter filename to edit:")
+local filename = io.read()
+local file = lupafs.open(filename, "a+") -- Open in append mode
+if not file then
+    print("Failed to open file.")
+    return
+end
+
+print("Type your text below (type ':q' to save and exit):")
+while true do
+    local line = io.read()
+    if line == ":q" then break end
+    file.write(line .. "\n")
+end
+
+file.close()
+print("File saved.")
