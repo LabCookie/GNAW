@@ -1,0 +1,4 @@
+function main(a,p)
+	local r,e = load("return "..a[2])
+	if r then print(r) else print(e) end
+end
